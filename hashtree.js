@@ -8,13 +8,13 @@ var limit = Number(prompt("Enter grid size"));
 
 for (var i=0; i<limit; i++){ //Rows
   if(l==0){
-    for(var k=0; k<limit/2; k++){   //Columns even
+    for(var k=0; k<limit; k++){   //Columns even
       line1 += hsh1;    
     } 
     console.log(line1); 
     l++;
   } else{
-     for(var k=0; k<limit/2; k++){     //Columns odd
+     for(var k=0; k<limit; k++){     //Columns odd
       line2 += hsh2;    
     } 
     console.log(line2); 
